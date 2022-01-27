@@ -10,6 +10,6 @@ Clone, name and place this repository under the folder `$HOME/.cime` to run CTSM
 ### NB 
 When the files from this repository are used on Fram, the following options should be added to create new cases:
 ```
- --machine fram --compiler intel --mpilib impi --run-unsupported --project <your-project> `
+ --machine fram --driver nuopc --compiler intel --mpilib impi --run-unsupported --project <your-project> `
 ```
  
